@@ -35,7 +35,7 @@ require.config({
             exports: 'Backbone'
         },
         'marionette': {
-            deps: ['backbone']
+            deps: ['backbone','backbone.wreqr', 'backbone.babysitter']
         },
         'moment' : {
             exports: 'moment'
