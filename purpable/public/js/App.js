@@ -6,7 +6,8 @@ define(
         'jquery',
         'underscore',
         'backbone',
-        'marionette'
+        'marionette',
+        'aframe'
     ],
     function ($, _, Backbone, Marionette) {
         "use strict";
