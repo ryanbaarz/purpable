@@ -19,7 +19,7 @@ require.config({
         "aframe" : "bower_components/aframe/aframe-v0.2.0",
         "backbone": "bower_components/backbone/backbone",
         "jquery": "bower_components/jQuery/dist/jquery",
-        "underscore": "bower_components/lodash/dist/lodash",
+        "underscore": "bower_components/lodash/lodash",
         "marionette": "bower_components/marionette/lib/core/amd/backbone.marionette",
         "moment" : "bower_components/moment/moment",
 
