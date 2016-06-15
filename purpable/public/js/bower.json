@@ -1,0 +1,28 @@
+{
+  "name": "VRyan",
+  "version": "0.0.1",
+  "authors": [
+    "Ryan Baarz <rbaarz@adobe.com>"
+  ],
+  "description": "Ryan is testing web VR",
+  "license": "Proprietarty",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "2.1.18",
+    "backbone": "1.1.2",
+    "marionette": "1.8.8",
+    "requirejs-text": "2.0.14",
+    "jQuery": "3.0.0",
+    "aframe": "0.2.0",
+    "lodash": "~4.12.0",
+    "moment": "2.13.0"
+  }
+}
