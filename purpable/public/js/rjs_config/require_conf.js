@@ -16,17 +16,17 @@ require.config({
 	waitSeconds: 300,
     paths: {
         // Core Libraries
-        "aframe" : "../bower_components/aframe/aframe-v0.2.0",
-        "backbone": "../bower_components/backbone/backbone",
-        "backbone.babysitter" : "../bower_components/backbone.babysitter/src/build/backbone.babysitter",
-        "backbone.wreqr" : "../bower_components/backbone.wreqr/src/build/backbone.wreqr",
-        "jquery": "../bower_components/jQuery/dist/jquery",
-        "underscore": "../bower_components/lodash/dist/lodash",
-        "marionette": "../bower_components/marionette/backbone.marionette",
-        "moment" : "../bower_components/moment/moment",
+        "aframe" : "bower_components/aframe/aframe-v0.2.0",
+        "backbone": "bower_components/backbone/backbone",
+        "backbone.babysitter" : "bower_components/backbone.babysitter/src/build/backbone.babysitter",
+        "backbone.wreqr" : "bower_components/backbone.wreqr/src/build/backbone.wreqr",
+        "jquery": "bower_components/jQuery/dist/jquery",
+        "underscore": "bower_components/lodash/dist/lodash",
+        "marionette": "bower_components/marionette/backbone.marionette",
+        "moment" : "bower_components/moment/moment",
 
         // Plugins
-        "text": "../bower_components/requirejs-text/text"
+        "text": "/bower_components/requirejs-text/text"
     },
         // Sets the configuration for your third party scripts that are not AMD compatible
     shim: {
