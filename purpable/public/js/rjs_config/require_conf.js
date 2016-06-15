@@ -20,7 +20,7 @@ require.config({
         "backbone": "bower_components/backbone/backbone",
         "jquery": "bower_components/jQuery/dist/jquery",
         "underscore": "bower_components/lodash/dist/lodash",
-        "marionette": "bower_components/marionette/lib/backbone.marionette",
+        "marionette": "bower_components/marionette/lib/core/amd/backbone.marionette",
         "moment" : "bower_components/moment/moment",
 
         // Plugins
