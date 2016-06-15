@@ -18,8 +18,6 @@ require.config({
         // Core Libraries
         "aframe" : "bower_components/aframe/aframe-v0.2.0",
         "backbone": "bower_components/backbone/backbone",
-        "backbone.babysitter" : "bower_components/backbone.babysitter/src/build/backbone.babysitter",
-        "backbone.wreqr" : "bower_components/backbone.wreqr/src/build/backbone.wreqr",
         "jquery": "bower_components/jQuery/dist/jquery",
         "underscore": "bower_components/lodash/dist/lodash",
         "marionette": "bower_components/marionette/lib/backbone.marionette",
@@ -34,14 +32,8 @@ require.config({
             deps: ['underscore', 'jquery'],
             exports: 'Backbone'
         },
-        'backbone.babysitter' : {
-        	deps: ['backbone']
-        },
-        'backbone.wreqr' : {
-        	deps: ['backbone']
-        },
         'marionette': {
-            deps: ['backbone','backbone.wreqr', 'backbone.babysitter']
+            deps: ['backbone']
         },
         'moment' : {
             exports: 'moment'
