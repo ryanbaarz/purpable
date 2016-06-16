@@ -3,16 +3,7 @@
 			<img id="geoRainbow" src="img/rainbow.jpg">
 		</a-assets>
 
-        <a-box id="rybox" position="-10 2 -5" rotation="0 0 45" width="4" height="10" depth="2"  scale="2 0.5 3"  color="#4CC3D9" src="#geoRainbow">
-        	<a-animation attribute="rotation" begin="click" repeat="indefinite" to="0 360 0"></a-animation>
-        </a-box>
-
-        <a-light type="spot" color="#FAF" position="-20 -20 0" look-at="a-box"></a-light>
-        <a-light type="point" color="#AAA" position="0 5 0"></a-light>
-        
-        <a-camera position="0 1.8 0">
-        	<a-cursor color="#2E3A87">
-        </a-camera>
+          <a-image src="#geoRainbow"></a-image>
 
         <a-sky color="#73F7DD"></a-sky>
 
