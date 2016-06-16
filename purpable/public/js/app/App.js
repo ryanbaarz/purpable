@@ -24,7 +24,7 @@ define(
             var App = window.App = new Backbone.Marionette.Application();
 
             App.addRegions({
-                body : "body";
+                body : "body"
             });
             
             App.addInitializer(function(options){
