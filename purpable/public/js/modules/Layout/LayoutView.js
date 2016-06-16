@@ -25,6 +25,11 @@ define([
         initialize : function(){
 
         },
+        onShow : function(){
+            console.log("**********************************");
+            console.log(this.ui.box);
+            console.log("**********************************");
+        },
         _rescale : function(e){
             console.log(e);
             console.log(e.target);
