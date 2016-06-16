@@ -32,7 +32,7 @@ define([
             console.log(box);
             console.log(this.ui.box);
             console.log(this.ui.box[0]);
-            box.addEventListener('mouseenter', this._rescale);
+            this.ui.box[0].addEventListener('mouseenter', this._rescale);
             console.log("**********************************");
         },
         _rescale : function(e){
