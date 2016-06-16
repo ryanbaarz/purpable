@@ -28,18 +28,11 @@ define([
         onShow : function(){
             console.log("**********************************");
             
-            /*var box = document.querySelector('a-box');
+            var box = document.querySelector('#rybox');
             console.log(box);
             console.log(this.ui.box);
             console.log(this.ui.box[0]);
-            this.ui.box.mouseenter(function(){
-                console.log("hello");
-                box.setAttribute('scale', {
-                    x: 4,
-                    y: 1,
-                    z: 6
-                });
-            });*/
+            box.addEventListener('mouseenter', this._rescale);
             console.log("**********************************");
         },
         _rescale : function(e){
