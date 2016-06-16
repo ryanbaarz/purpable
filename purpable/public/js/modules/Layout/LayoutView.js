@@ -20,7 +20,7 @@ define([
             box : "#rybox"
         },
         events : {
-            'mouseenter @ui.box' : '_rescale',
+            'click @ui.box' : '_rescale',
         },
         initialize : function(){
 
