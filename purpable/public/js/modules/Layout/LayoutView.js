@@ -27,10 +27,12 @@ define([
         },
         onShow : function(){
             console.log("**********************************");
-            console.log(this.ui.box);
-            this.ui.box.on("mouseenter", function(){
+            
+            var box = document.querySelector('a-box');
+            console.log(box);
+            box.addEventListener("mouseenter", function(){
                 console.log("hello");
-                this.ui.box[0].setAttribute('scale', {
+                box.setAttribute('scale', {
                     x: 4,
                     y: 1,
                     z: 6
