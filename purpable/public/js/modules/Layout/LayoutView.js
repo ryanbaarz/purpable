@@ -27,11 +27,6 @@ define([
         },
         onShow : function(){
             console.log("**********************************");
-            
-            var box = document.querySelector('#rybox');
-            console.log(box);
-            console.log(this.ui.box);
-            console.log(this.ui.box[0]);
             this.ui.box[0].addEventListener('mouseenter', this._rescale);
             console.log("**********************************");
         },
