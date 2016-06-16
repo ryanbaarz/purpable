@@ -28,6 +28,7 @@ define([
         onShow : function(){
             console.log("**********************************");
             console.log(this.ui.box);
+            this.ui.box.on("mouseenter", this._rescale);
             console.log("**********************************");
         },
         _rescale : function(e){
