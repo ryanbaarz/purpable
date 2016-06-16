@@ -16,7 +16,25 @@ define([
         regions: {
             /*curatedDialog : ".curated-dialog",*/
         },
-        initialize : function(){}
+        ui :{
+            box : "a-box"
+        },
+        events : {
+            'mouseenter @ui.box' : '_rescale',
+        },
+        initialize : function(){
+
+        },
+        _rescale : function(e){
+            console.log(e);
+            console.log(e.target);
+            e.target.setAttribute('scale',{
+                x: 4,
+                y: 1,
+                z: 6
+            });
+            }
+        }
 
     });
 });
