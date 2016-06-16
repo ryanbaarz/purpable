@@ -17,7 +17,7 @@ define([
             /*curatedDialog : ".curated-dialog",*/
         },
         ui :{
-            box : "a-box"
+            box : "#rybox"
         },
         events : {
             'mouseenter @ui.box' : '_rescale',
