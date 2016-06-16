@@ -30,6 +30,8 @@ define([
             
             var box = document.querySelector('a-box');
             console.log(box);
+            console.log(this.ui.box);
+            console.log(this.ui.box[0]);
             box.addEventListener("mouseenter", function(){
                 console.log("hello");
                 box.setAttribute('scale', {
