@@ -32,7 +32,7 @@ define([
             console.log(box);
             console.log(this.ui.box);
             console.log(this.ui.box[0]);
-            bthis.ui.box.on("mouseenter", function(){
+            this.ui.box.on("mouseenter", function(){
                 console.log("hello");
                 box.setAttribute('scale', {
                     x: 4,
