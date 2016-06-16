@@ -26,9 +26,9 @@ define([
 
         },
         onShow : function(){
-            console.log("**********************************");
+            /*console.log("**********************************");
             this.ui.box[0].addEventListener('mouseenter', this._rescale);
-            console.log("**********************************");
+            console.log("**********************************");*/
         },
         _rescale : function(e){
             console.log(e);
