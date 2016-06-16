@@ -24,7 +24,7 @@ require.config({
         "moment" : "bower_components/moment/moment",
 
         // Plugins
-        "text": "/bower_components/requirejs-text/text"
+        "text": "bower_components/requirejs-text/text"
     },
         // Sets the configuration for your third party scripts that are not AMD compatible
     shim: {
