@@ -28,7 +28,13 @@ define([
         onShow : function(){
             console.log("**********************************");
             console.log(this.ui.box);
-            this.ui.box.on("mouseenter", this._rescale);
+            this.ui.box.on("mouseenter", function(){
+                this.ui.box[0].setAttribute('scale', {
+                    x: 4,
+                    y: 1,
+                    z: 6
+                });
+            });
             console.log("**********************************");
         },
         _rescale : function(e){
