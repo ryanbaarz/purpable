@@ -29,7 +29,7 @@ define([
                 },
                 theta : function(){
                     return (180/Math.PI)*(desiredWidth/radius);
-                }
+                },
                 rotation2 : function(){
                     return 160 - (180/Math.PI)*(desiredWidth/radius);
                 } 
