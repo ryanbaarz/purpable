@@ -18,7 +18,7 @@ define([
                 originalWidthDimension = 1200,
                 desiredHeight = 10,
                 desiredWidth  =  desiredHeight * (originalWidthDimension/originalHeightDimension),
-                radius = 5;
+                radius = 15;
 
             return {
                 height : function(){
