@@ -19,7 +19,7 @@ define([
                 desiredHeight = 10,
                 desiredWidth  =  desiredHeight * (originalWidthDimension/originalHeightDimension),
                 radius = 15,
-                startRotation = 180,
+                startRotation = 0,
                 count = 0;
 
             return {
