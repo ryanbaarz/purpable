@@ -12,6 +12,21 @@ define([
     "use strict";
     return Backbone.Marionette.Layout.extend({
         template: _.template(LayoutTemplate),
+        
+        templateHelpers : function(){
+            return {
+                height : function(){
+                    return 10;
+                },
+                radius : function(){
+                    return 5;
+                },
+                theta : function(){
+                    return 152.57;
+                }
+
+            }
+        },
         //className: "curated-container",
         regions: {
             /*curatedDialog : ".curated-dialog",*/
