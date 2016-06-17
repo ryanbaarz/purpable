@@ -22,17 +22,17 @@ define([
 
             return {
                 height : function(){
-
                     return desiredHeight;
                 },
                 radius : function(){
-                    console.log(radius);
                     return radius;
                 },
                 theta : function(){
-                    console.log((180/Math.PI)*(desiredWidth/radius));
                     return (180/Math.PI)*(desiredWidth/radius);
                 }
+                rotation2 : function(){
+                    return 160 - (180/Math.PI)*(desiredWidth/radius);
+                } 
 
             }
         },
