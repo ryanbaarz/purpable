@@ -19,6 +19,7 @@ define([
                 desiredHeight = 10,
                 desiredWidth  =  desiredHeight * (originalWidthDimension/originalHeightDimension),
                 radius = 15,
+                startRotation = 180
                 count = 0;
 
             return {
@@ -32,10 +33,8 @@ define([
                     return (180/Math.PI)*(desiredWidth/radius);
                 },
                 rotation : function(){
-                    console.log("(*))(*)(*)(*)(*)(*)");
-                    console.log(160 - (count*(180/Math.PI)*(desiredWidth/radius)));
                     count++;
-                    return 160 - (count*(180/Math.PI)*(desiredWidth/radius));
+                    return startRotation - (count*(180/Math.PI)*(desiredWidth/radius));
                 } 
 
             }
