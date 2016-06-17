@@ -14,8 +14,8 @@ define([
         template: _.template(LayoutTemplate),
         
         templateHelpers : function(){
-            var originalHeightDimension = 900,
-                originalWidthDimension = 1200,
+            var originalHeightDimension = 880,
+                originalWidthDimension = 1570,
                 desiredHeight = 10,
                 desiredWidth  =  desiredHeight * (originalWidthDimension/originalHeightDimension),
                 radius = 15,
