@@ -14,15 +14,19 @@ define([
         template: _.template(LayoutTemplate),
         
         templateHelpers : function(){
+            var height = 10,
+                width  =  1200/900,
+                radius = 5;
+
             return {
                 height : function(){
-                    return 10;
+                    return height;
                 },
                 radius : function(){
-                    return 5;
+                    return radius;
                 },
                 theta : function(){
-                    return 152.57;
+                    return (180/Math.PI)*(width/radius);
                 }
 
             }
