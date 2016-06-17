@@ -19,7 +19,7 @@ define([
                 desiredHeight = 10,
                 desiredWidth  =  desiredHeight * (originalWidthDimension/originalHeightDimension),
                 radius = 15,
-                count = -1;
+                count = 0;
 
             return {
                 height : function(){
