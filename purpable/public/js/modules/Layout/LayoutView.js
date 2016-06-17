@@ -18,7 +18,8 @@ define([
                 originalWidthDimension = 1200,
                 desiredHeight = 10,
                 desiredWidth  =  desiredHeight * (originalWidthDimension/originalHeightDimension),
-                radius = 15;
+                radius = 15,
+                count = 0;
 
             return {
                 height : function(){
@@ -30,8 +31,10 @@ define([
                 theta : function(){
                     return (180/Math.PI)*(desiredWidth/radius);
                 },
-                rotation2 : function(){
-                    return 160 - (180/Math.PI)*(desiredWidth/radius);
+                rotation : function(){
+                    console.log("(*))(*)(*)(*)(*)(*)");
+                    console.log(160 - (count*(180/Math.PI)*(desiredWidth/radius)));
+                    return 160 - (count*(180/Math.PI)*(desiredWidth/radius));
                 } 
 
             }
